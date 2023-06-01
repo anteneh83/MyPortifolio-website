@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portifolio</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: lightpink;
+                height: 1200px;
+            }
+            p {
+                font-family: Roboto, arial;
+                color: black;
+            }
+            a {
+                color: white;
+            }
+            .home {
+                margin-bottom: 100px;
+            }
+            .tew,
+            .home,
+            .about,
+            .skills,
+            .port,
+            .contact {
+                display: inline-block;
+            }
+            .tew {
+                margin-right: 700px;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold;
+            }
+            .homes {
+                background-color: lightsalmon;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); ;
+            }
+            .home,
+            .about,
+            .skills,
+            .port,
+            .contact {
+                margin-right: 10px;
+            }
+            .home-anchor {
+                color: blue;
+            }
+            .overview {
+                vertical-align: top;
+                
+            }
+            .dis,
+            .pic {
+                display: inline-block;
+                margin-top: 50px;
+            }
+            .dis {
+                background-color: rgb(221, 55, 236);
+                height: 400px;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+                margin-left: 250px;
+                margin-right: 30px;
+                vertical-align: top;
+                
+            }
+            button {
+                background-color: blue;
+                color: white;
+                border: none;
+                padding: 15px;
+                cursor: pointer;
+                border-radius: 18px;
+                font-weight: bold;
+                margin-left: 50px;
+                width: 100px;
+                margin-bottom: 20px;
+                transition: opacity 0.15s;
+            }
+            button:hover{
+                opacity: 0.7;
+            }
+            button:active {
+                opacity: 0.7;
+            }
+            .image1 {
+                height: 350px;
+                width: 350px;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+                border-radius: 50%;
+                jus
+            }
+            .image-div {
+                display: inline-block;
+                width: 10px;
+                margin-right: 0px;
+            }
+            
+            
+            .hi {
+                font-size: 40px ;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                padding-left: 10px;
+            }
+            .get {
+                color: rgb(218, 221, 19);
+            }
+            .intro {
+                font-weight: bold;
+                font-size: 20px;
+                padding-left: 50px;
+               
+            }
+            #about{
+                color: rgb(38, 0, 255);
+                background-color:lightblue ;
+                padding:50px 20px;
+                margin-top:50px;
+                font-size: large;
+                width: 800px;
+                box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.15);   
+            }
+            .about-div {
+                margin-left: 50px; 
+                margin-bottom: 100px;
+            }
+            .portifolio-div {
+                background-color:burlywood;
+                padding:10px 20px;
+                margin-top:50px;
+                font-size: large;
+                width: 100%;
+                box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.15);  
+            }
+            .skill-div {
+                padding:50px 20px;
+                margin-top:50px;
+                font-size: large;
+                width: 95%;
+                box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.15); 
+            }
+            .logo {
+               margin-left: 70px;
+
+            }
+            .face-logo {
+                width: 50px;
+                margin-right: 20px;
+                border-radius: 20px;
+            }
+            .tweet-logo{
+               margin-left: 20px; 
+            }
+            .tweet-logo,
+            .tele-logo {
+                width: 30px;
+                border-radius: 18px;
+            }
+            .face-div,
+            .tele-div,
+            .tweet-div {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .send-button {
+                background-color: blue;
+                font-family: arial;
+                color: white;
+                border: none;
+                border-radius: 18px;
+                padding: 10px;
+                width: 100px;
+                margin-top: 15px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+            }
+            .send-button:hover {
+                opacity: 0.7;
+            }
+            .send-button:active {
+                opacity: 0.15;
+            }
+            footer{
+    
+                color: rgb(0, 255, 191);
+                padding: 20px;
+                text-align: center;
+            }
+            .heading-3 {
+                background-color: lightgrey;
+                width: 500px;
+                padding: 20px;
+                margin-left: 400px;
+                box-shadow: 5px 5px 10px rgba(5, 5, 5, 0.15);
+            }
+            span{
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="Homes">
+                <div class="tew">
+                    <p>Anteneh Getnet</p>
+                </div>
+                <div class="home">
+                    <a class="home-anchor" href="#home">Home</a>  
+                </div>
+                <div class="about">
+                    <a href="#about">About</a>
+                </div> 
+                <div class="skills">
+                    <a href="#skills">Skills</a>
+                </div>  
+                <div class="port">
+                    <a href="#portifolio">Portifolio</a>
+                </div>
+                <div class="contact">
+                    <a href="#contact">Contact</a>
+                </div>    
+            </div>
+            <div class="overview" id="Home">
+                <div class="dis">
+                    <div><p class="hi">Hi There,</p></div>
+                    <div> <p class="hi">I'm Anteneh <span class="get">Getnet</span></p></div>
+                    <div>
+                        <p class="intro">I am a Front End Developer!</p>
+                    </div>
+                    <div>
+                       <a href="#about"> <button> About Me</button></a>
+                    </div>
+                    <div class="logo">
+                        <div class="face-div">
+                           <a href="https://www.facebook.com/" target="_blank"><img class="face-logo" src="images/facebook.png" alt="facebook logo"></a> 
+                        </div>
+                        <div class="tele-div">
+                            <a  href="https://t.me/am_u_21" target="_blank"><img class="tele-logo" src="images/telegram.jpg" alt="facebook logo"></a>
+                        </div>
+                        <div class="tweet-div">
+                            <a href="https://t.me/0974528148D3" target="_blank"><img class="tweet-logo" src="images/tweetor.png" alt="facebook logo"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img class="image1" src="images/image1.jpg" alt="developer picture">
+                </div>
+            </div>
+            <div class="about-div">
+                <section id="about">
+                    <h1 class="heading-1" id="get"> about me</h1>
+                    <p>
+                        My name is Anteneh Getnet.I am  a 2rd year software engineer at Addis Abab Science and Technology
+                        Univesity.This is the first personal portifolio I developed and done by using only 
+                        html and css.
+                    </p>
+                </section>
+            </div>
+            <div class="skill-div">
+                <section id="skills">
+                    <h1 class="skill-heading" id="get"> My Skills</h1>
+                    <p>
+                        1. <span>Responsive Web Design:</span> Demonstrating your ability to create responsive websites 
+                        that adapt seamlessly to different screen sizes and devices is essential. Showcase examples of websites 
+                        you've built that provide an optimal user experience across various devices.
+                        <br>
+                        2. <span>Cross-Browser Compatibility:</span> Highlight your expertise in building websites 
+                        that work consistently across different web browsers. Showcase projects that demonstrate 
+                        your ability to handle browser-specific quirks and ensure a consistent experience for users.
+                        <br>
+                        3. <span>Semantic HTML Markup:</span> Showcase your proficiency in writing clean and semantically structured HTML code. 
+                        Emphasize how you use proper HTML tags to enhance accessibility, search engine optimization, and overall code maintainability.
+                        <br>
+                        4. <span>CSS Styling and Layout:</span> Showcase your mastery of CSS by highlighting projects that exhibit aesthetically 
+                        pleasing designs and visually appealing user interfaces. Include examples that demonstrate your ability to create 
+                        custom styles, implement complex layouts, and effectively use CSS frameworks and libraries.
+                        <br>
+                        5. <span> CSS Animations and Transitions:</span> Illustrate your skills in creating engaging and interactive user experiences 
+                        using CSS animations and transitions. Present projects that showcase smooth transitions, hover effects, or creative 
+                        animations to bring your designs to life.
+                        <br>
+                        6. <span>Performance Optimization:</span> Emphasize your knowledge of performance optimization techniques to ensure fast-loading websites. 
+                        Showcase projects where you have optimized file sizes, used efficient loading strategies, and employed techniques like lazy loading and caching.
+                        <br>
+                        7. <span>Collaboration and Version Control:</span> Highlight your ability to work collaboratively by showcasing projects where 
+                        you have used version control systems like Git. Mention how you have collaborated with teams, managed code branches, 
+                        and tracked changes effectively.
+                        <br>
+                        8. <span>Accessibility Best Practices:</span> Showcase your commitment to creating accessible websites by including projects that 
+                        adhere to web accessibility standards. Highlight examples where you have implemented proper ARIA roles, semantic markup, 
+                        and accessible navigation.
+                        <br>
+                        9. <span> Debugging and Troubleshooting:</span> Demonstrate your problem-solving skills by including projects that required debugging and 
+                        troubleshooting. Explain how you identified and resolved issues related to layout, responsiveness, browser compatibility, or CSS conflicts.
+                        <br>
+                        10. <span> Personalization and Creativity:</span> Showcase your ability to personalize and customize websites to meet clients' or project
+                        requirements. Highlight examples where you have implemented unique design elements, custom animations, or creative visual effects.
+                    </p>
+                </section>
+            </div>
+            <div class="portifolio-div">
+                <section id="portifolio">
+                    <h1 class="heading-2" id="get"> My Personal Portifolio</h1>
+                    <p>
+                        This portifolio is work only in clint side ,but not in server side becuase
+                        this portifolio is not developed with other important server side programing languages like
+                        php,javascript,and also java.but know that meance in this semester i started to learn such cources,
+                        then when i finished such cources i will start to edit this personal portifolio and develop to a large
+                        website by including the languages that is used to develop on the server side. 
+                    </p>
+                </section>
+            </div>
+
+            <div class="contact-div">
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+            
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea><br>
+            
+                        <input class="send-button" type="submit" value="Send">
+                    </form>
+                </section>
+            </div>
+            <h1 class="heading-3" id="teddy"><i>Thank you for visiting mine portifolio</i></h1>
+
+            <footer>
+                <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+            </footer>
+        </div>
+
+    </body>
+</html>
